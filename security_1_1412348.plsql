@@ -101,7 +101,6 @@ CREATE OR REPLACE Procedure Delete_Luong
 ( p_maNV nchar := 10)
 IS
 begin
-/*    Dau tien xoa tu bang ChiTieu_Key Sau do xoa tu bang ChiTieu */
 delete from MaMN_Key where maNV = p_maNV;
 delete from NhanVien where maNV = p_maNV;
 end;
