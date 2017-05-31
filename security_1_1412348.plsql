@@ -96,7 +96,7 @@ begin
     where MaNV = p_MaNV;
 end;
 
--- Tao stored procedure xoa thong tin chi tieu
+-- Tao stored procedure xoa thong tin Luong
 CREATE OR REPLACE Procedure Delete_Luong
 ( p_maNV nchar := 10)
 IS
